@@ -17,7 +17,7 @@ public class TestController {
 
     //@RequestMapping(method = RequestMethod.GET, path = "/api/hello")
     //public ResponseEntity<String> sayHello(){
-     //   return ResponseEntity.ok("Hello");
+    //    return ResponseEntity.ok("Hello");
     //}
 
     //@RequestMapping(method = RequestMethod.GET, path = "/api/hello2")
@@ -30,8 +30,8 @@ public class TestController {
     //    return "Hello " + name;
    // }
     //@RequestMapping(method = RequestMethod.GET, path = "/api/hello/{name}/{age}")
-   // public String YourAge(@PathVariable String name, @PathVariable Integer age){
-    //    return "Hello " + name + "mam " + age;
+    //public String YourAge(@PathVariable String name, @PathVariable Integer age){
+     //   return "Hello " + name + "mam " + age;
    // }
 
     //@RequestMapping(method = RequestMethod.GET, path = "/api/hello")

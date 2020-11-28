@@ -89,7 +89,7 @@ public class PersonnelServiceMemoryImpl implements PersonnelService {
     }
 
     @Override
-    public List<Personnel> getAllPersonnel() {
+    public List<Personnel> getAllPersonnel(Integer page, Integer size) {
         return new ArrayList<>(personnelMap.values());
     }
 
@@ -119,6 +119,21 @@ public class PersonnelServiceMemoryImpl implements PersonnelService {
             return personnelMap.get(id);
         }
         return null;
+    }
+
+    @Override
+    public List<Personnel> getPersonnelBySickLeave(Boolean sickLeave) {
+        return null;
+    }
+
+    @Override
+    public List<Personnel> getPersonnelByPosition(String postion) {
+        return null;
+    }
+
+    @Override
+    public void cureAllPersonnel() {
+
     }
 
     private List<Personnel> addPersonnel(List<Personnel> personnels){
